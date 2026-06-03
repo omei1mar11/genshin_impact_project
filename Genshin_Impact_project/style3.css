@@ -12,3 +12,33 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+h1{
+    text-align: center;
+    font-style: italic;
+    background-image: url("headbackground.jpg");
+}
+h2{
+   text-decoration: double;
+}
+.bleh{
+    text-align: right;
+}
+p{
+    text-align: left;
+    font-family: cursive;
+}
+.wiwiwi{
+    text-align: right;
+    font-family: cursive;
+}
+img{
+    width: 40%;
+    height: 180px;
+    margin: 20px;
+    margin-left: 1000px;
+}
+.better{
+    width:40%;
+    height: 180px;
+    margin: 20px;
+}
