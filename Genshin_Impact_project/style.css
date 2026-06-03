@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(234, 242, 242);
+    background-color: bisque;
     margin: 0;
 }
 .header {
@@ -18,4 +18,53 @@ h1 {
     color: white;
     padding: 15px 30px;
     align-self: center;
+}
+p {
+    color: rgb(20, 20, 20);
+    align-self: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: -10px;
+    
+}
+a {
+    color: brown;
+}
+
+.container {
+    display: flex;              
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    
+}
+.card {
+    text-align: center;
+    color: white;
+}
+
+.card img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+   margin-top: 250px;
+
+}
+
+.butt {
+    display: inline-block;
+    padding: 10px 20px;
+    background: rgb(103, 96, 202);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+hr {
+    background: rgb(75, 86, 136);
+    height: 2px;
+    border: none;
+    margin-bottom: 40px;
+    
 }
